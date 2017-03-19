@@ -86,7 +86,6 @@ class Header extends React.Component {
     return (
       <div className="header">
             <h1 className="title">Recipe Box</h1>
-            <p className="desc">Data Vis Project No. 3</p>
          </div>
     );
   }
@@ -115,13 +114,13 @@ class ViewRecipe extends React.Component {
   showEdit() {
     return (
       <div className="row">
-        <h4>Name</h4>
+        <h4 className="edith4">Name</h4>
         <textarea ref="newName" defaultValue={this.props.recipes.name}></textarea>
-        <h4>Ingredients</h4>
+        <h4 className="edith4">Ingredients</h4>
         <textarea ref="newIng" defaultValue={this.props.recipes.ingredients} ></textarea>
-        <h4>Instructions</h4>
+        <h4 className="edith4">Instructions</h4>
         <textarea ref="newInstr" defaultValue={this.props.recipes.instructions}></textarea>
-        <h4>Image URL</h4>
+        <h4 className="edith4">Image URL</h4>
         <textarea ref="newImg" defaultValue={this.props.recipes.image}></textarea>
         <div className="butbar">
           <button className="butbarbut" onClick={this.save}>Save</button>
@@ -161,7 +160,7 @@ class ViewRecipe extends React.Component {
       <div>
         <button onClick={this.viewing} className="recipBut">{this.props.recipes.name}</button>
           <div className="row">
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <h4 className="viewName">{this.props.recipes.name}</h4>
               <h4>Ingredients</h4>
               <p className="viewText">{this.props.recipes.ingredients}</p>
@@ -172,7 +171,7 @@ class ViewRecipe extends React.Component {
                 <button className="butbarbut" onClick={this.remove}>Delete</button>
               </div>
             </div>
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <img src={this.props.recipes.image} alt="" className="recipImage" />
             </div>
           </div>
@@ -274,12 +273,12 @@ const customStyles = {
     left              : 0,
     right             : 0,
     bottom            : 0,
-    backgroundColor   : 'rgba(0, 66, 20, 0.75)'
+    backgroundColor   : 'rgba(255, 76, 76, 0.75)'
   },
   content: {
     width: '350px',
-    background: 'green',
-    color: 'white',
+    background: '#400080',
+    color: '#FFDC4C',
     top: '45%',
     left: '50%',
     right: 'auto',
