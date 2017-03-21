@@ -10,14 +10,19 @@ class RecipeBox extends React.Component {
 
   var recipes = [{
     "name": "Lasagna Soup",
-    "ingredients": "Chocolate, Crust, Whip Cream",
+    "ingredients": "Chocolate, Crust, Whipped Cream",
     "instructions": "Make a delicious mincemeat wafer.",
-     "image": "http://www.kevinandamanda.com/recipes/wp-content/uploads/2014/11/Dark-Chocolate-Salted-Caramel-Oreo-Pie-Recipe-14.jpg"
+     "image": "https://s-media-cache-ak0.pinimg.com/736x/b5/b6/32/b5b6324568a688e8e7e9eece4c500d64.jpg"
    }, {
     "name": "Cats-erole",
     "ingredients": "rabbit leg, old wash basin, 1/2 cup grow pellets",
     "instructions": "Put it in the dish and experiment.",
     "image": "https://voolas.com/wp-content/uploads/2016/04/cats-12-everydaykiss.jpg"
+    }, {
+    "name": "Wiener Schnitzel",
+    "ingredients": "gourd shavings",
+    "instructions": "Leave at room temperature to thaw.",
+    "image": "https://whereevilthoughts.files.wordpress.com/2013/07/crafty-food-6-cheese-and-hot-dog.jpg"
   }];
 
     if (typeof localStorage["recipesStorage"] !== "undefined") {

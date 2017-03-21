@@ -32,25 +32,29 @@ body {
   font-weight: 800;
   color: #590000;
   width: 38%;
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding: 3px;
   margin-bottom: 10px;
   border-radius: 10px;
   outline: none;
+  box-shadow: 3px 2px 4px #888888;
 }
+.recipBut:hover {background: #FF4A62; color: white;}
 .addBut {
   text-align: center;
   font-weight: 800;
   background: #83FF77;
-  color: #590000;
-  font-size: 1.3em;
+  color: #000;
+  font-size: 1.4em;
   padding: 6px;
   margin-bottom: 22px;
   border-radius: 10px;
   outline: none;
+  box-shadow: 3px 2px 4px #888888;
 }
+.addBut:hover {background: #FF4A62; color: white;}
 .title {
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-weight: 900;
   margin-top: 14px;
   margin-bottom: 14px;
@@ -73,7 +77,7 @@ body {
   margin-bottom: 10px;
 }
 h4 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 800;
   margin-top: 4px;
   margin-bottom: 4px;
@@ -90,7 +94,8 @@ h4 {
   display: block;
 }
 .viewText {
-  font-size: 1.3em;
+  font-size: .9em;
+  font-family: Arial;
 }
 .butbar {
   text-align: center;
@@ -103,67 +108,74 @@ h4 {
   font-weight: 800;
   background: #83FF77;
   color: #590000;
-  width: 75px;
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
   outline: none;
+  box-shadow: 3px 2px 4px #000;
+  border: none;
 }
+.butbarbut:hover {background: #FF4A62; color: white;}
 .edith4 {
-  font-size: .1.3em;
-  padding: 0;
-  margin: 0;
+  font-size: 1em;
+  padding: 2px;
+  margin-bottom: 2px;
   margin-left: 5px;
+  font-family: Arial;
 }
 .row textarea {
   padding: 5px;
-  font-size: 1.2em;
+  font-size: .8em;
   width: 100%;
   margin: 2px;
   border-radius: 5px;
   color: black;
+  font-family: Arial;
 }
 .close {
   float: right;
   padding: 4px;
-  font-size: 1.3em;
-  margin: 0;
+  font-size: 1em;
   color: white;
   outline: none;
+  background: transparent;
+  border: none;
 }
 .butbarmod {
-  width: 55px;
   margin-top: 0;
   margin-bottom: 0;
   border-radius: 5px;
-  font-size: 1.3em;
+  padding: 6px;
+  font-size: 1.5em;
   font-weight: 800;
   color: #400080;
   background: #FF4A62;
   outline: none;
   font-family: 'Dawning of a New Day', cursive;
+  box-shadow: 3px 2px 4px #000;
+  border: none;
 }
+.butbarmod:hover {background: #FF4A62; color: white;}
 .modh4 {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 1.7em;
-  font-family: 'Dawning of a New Day', cursive;
+  font-size: 1.4em;
+  font-family: Arial;
 }
 .modtext {
-  width: 90%;
+  width: 100%;
+  font-size: 1em;
   padding: 5px;
   color: #400080;
+  font-family: Arial;
 }
 @media only screen and (max-width: 500px) {
   .recipBut {
     width: 90%;
   }
   .container {
-  margin-top: 7%;
+  margin-top: 15%;
   width: 90vw;
-  }
-  .recipeBox {
-    width: 95%;
   }
   .recipImage {
   margin-top: 10px;
