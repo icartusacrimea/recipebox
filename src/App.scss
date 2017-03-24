@@ -1,19 +1,19 @@
 body {
-  background: url(http://www.publicdomainpictures.net/pictures/130000/velka/seamless-ice-tile.jpg) no-repeat center center fixed;
+  background: url(http://www.publicdomainpictures.net/pictures/130000/velka/seamless-ice-tile.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-
+  background-size: cover;
+}
 .container {
   margin-top: 8%;
   padding: 15px;
   text-align: center;
   width: 70vw;
   font-size: 1.6em;
-  background: rgba(255, 74, 98, 0.8);
-  border-radius: 10px; }
-
+  background: rgba(255, 74, 98, .8);
+  border-radius: 10px;
+}
 .recipeBox {
   background: #FEF1F3;
   border: 10px solid #FFCB1B;
@@ -23,8 +23,8 @@ body {
   width: 95%;
   display: inline-block;
   border-radius: 10px;
-  font-family: 'Dawning of a New Day', cursive; }
-
+  font-family: 'Dawning of a New Day', cursive;
+}
 .recipBut {
   text-align: center;
   display: inline-block;
@@ -37,12 +37,9 @@ body {
   margin-bottom: 10px;
   border-radius: 10px;
   outline: none;
-  box-shadow: 3px 2px 4px #888888; }
-
-.recipBut:hover {
-  background: #FF4A62;
-  color: white; }
-
+  box-shadow: 3px 2px 4px #888888;
+}
+.recipBut:hover {background: #FF4A62; color: white;}
 .addBut {
   text-align: center;
   font-weight: 800;
@@ -53,20 +50,17 @@ body {
   margin-bottom: 22px;
   border-radius: 10px;
   outline: none;
-  box-shadow: 3px 2px 4px #888888; }
-
-.addBut:hover {
-  background: #FF4A62;
-  color: white; }
-
+  box-shadow: 3px 2px 4px #888888;
+}
+.addBut:hover {background: #FF4A62; color: white;}
 .title {
   font-size: 2.6em;
   font-weight: 900;
   margin-top: 14px;
   margin-bottom: 14px;
   color: #400080;
-  font-family: 'Dawning of a New Day', cursive; }
-
+  font-family: 'Dawning of a New Day', cursive;
+}
 .row {
   background: #FF4A62;
   border-radius: 10px;
@@ -74,25 +68,25 @@ body {
   margin-bottom: 15px;
   margin-top: 5px;
   padding: 8px;
-  color: #400080; }
-
+  color: #400080;
+}
 .viewName {
   font-size: 1.7em;
   font-weight: 800;
   text-decoration: underline;
-  margin-bottom: 10px; }
-
+  margin-bottom: 10px;
+}
 h4 {
   font-size: 1.4em;
   font-weight: 800;
   margin-top: 4px;
   margin-bottom: 4px;
-  font-weight: 700; }
-
+  font-weight: 700;
+}
 .editError {
   color: white;
-  text-align: center; }
-
+  text-align: center;
+}
 .recipImage {
   height: 160px;
   width: 160px;
@@ -101,18 +95,18 @@ h4 {
   display: inline-block;
   margin: auto;
   margin-top: 30px;
-  display: block; }
-
+  display: block;
+}
 .viewText {
   font-size: .9em;
-  font-family: Arial; }
-
+  font-family: Arial;
+}
 .butbar {
   text-align: center;
   padding: 3px;
   margin-top: 6px;
-  margin-bottom: 6px; }
-
+  margin-bottom: 6px;
+}
 .butbarbut {
   font-size: 1.3em;
   font-weight: 800;
@@ -123,19 +117,16 @@ h4 {
   border-radius: 10px;
   outline: none;
   box-shadow: 3px 2px 4px #000;
-  border: none; }
-
-.butbarbut:hover {
-  background: #FF4A62;
-  color: white; }
-
+  border: none;
+}
+.butbarbut:hover {background: #FF4A62; color: white;}
 .edith4 {
   font-size: 1em;
   padding: 2px;
   margin-bottom: 2px;
   margin-left: 5px;
-  font-family: Arial; }
-
+  font-family: Arial;
+}
 .row textarea {
   padding: 5px;
   font-size: .8em;
@@ -143,8 +134,8 @@ h4 {
   margin: 2px;
   border-radius: 5px;
   color: black;
-  font-family: Arial; }
-
+  font-family: Arial;
+}
 .close {
   float: right;
   padding: 4px;
@@ -153,8 +144,8 @@ h4 {
   color: white;
   outline: none;
   background: transparent;
-  border: none; }
-
+  border: none;
+}
 .butbarmod {
   margin-top: 0;
   margin-bottom: 0;
@@ -167,35 +158,38 @@ h4 {
   outline: none;
   font-family: 'Dawning of a New Day', cursive;
   box-shadow: 3px 2px 4px #000;
-  border: none; }
-
-.butbarmod:hover {
-  background: #FF4A62;
-  color: white; }
-
+  border: none;
+}
+.butbarmod:hover {background: #FF4A62; color: white;}
 .modh4 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 1.4em;
-  font-family: Arial; }
-
+  font-family: Arial;
+}
 .modtext {
   width: 100%;
   font-size: 1em;
   padding: 5px;
   color: #400080;
-  font-family: Arial; }
-
+  font-family: Arial;
+}
 @media only screen and (max-width: 500px) {
   .recipBut {
-    width: 90%; }
+    width: 90%;
+  }
   .container {
-    margin-top: 15%;
-    width: 90vw; }
+  margin-top: 15%;
+  width: 90vw;
+  }
   .recipImage {
-    margin-top: 10px;
-    margin-bottom: 10px; }
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
   .close {
-    font-size: 1em; }
+    font-size: 1em;
+  }
   .butbarmod {
-    font-size: 1.5em; } }
+    font-size: 1.5em;
+  }
+}
